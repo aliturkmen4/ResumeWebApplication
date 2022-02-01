@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminExperience.aspx" />
+    <Content Include="AdminExperienceAdd.aspx" />
     <Content Include="AdminTemplate\bootstrap-3.3.7\.gitattributes" />
     <Content Include="AdminTemplate\bootstrap-3.3.7\.gitignore" />
     <Content Include="AdminTemplate\bootstrap-3.3.7\dist\css\bootstrap-theme.css" />
@@ -1755,6 +1756,13 @@
     </Compile>
     <Compile Include="AdminExperience.aspx.designer.cs">
       <DependentUpon>AdminExperience.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminExperienceAdd.aspx.cs">
+      <DependentUpon>AdminExperienceAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminExperienceAdd.aspx.designer.cs">
+      <DependentUpon>AdminExperienceAdd.aspx</DependentUpon>
     </Compile>
     <Compile Include="DataSet.Designer.cs">
       <AutoGen>True</AutoGen>

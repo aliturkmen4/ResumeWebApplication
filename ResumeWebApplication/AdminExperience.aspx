@@ -3,6 +3,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 
+     <form id="Form1" runat="server">
+
     <table class="table table-bordered">
         
         <tr>
@@ -32,4 +34,6 @@
         </tbody>
     </table>
 
+         <asp:HyperLink NavigateUrl= "~/AdminExperienceAdd.aspx" ID="HyperLink3" runat="server" CssClass="btn btn-info">Add Experience</asp:HyperLink>
+         </form>
 </asp:Content>
