@@ -14,7 +14,7 @@
 
     <link href="AdminTemplate/bootstrap-3.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-    <link href="AdminTemplate/StyleSheet2.css" rel="stylesheet" />
+    <link href="StyleSheetTest.css" rel="stylesheet" />
 </head>
 <body>
 
@@ -37,7 +37,7 @@
                         <i class="glyphicon glyphicon-briefcase"></i>
                         Experience
                     </a>
-                    <a href="#pageSubmenu">
+                    <a href="AdminEducation.aspx">
                         <i class="glyphicon glyphicon-education"></i>
                         Education
                     </a>

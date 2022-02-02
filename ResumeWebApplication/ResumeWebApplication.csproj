@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminEducation.aspx" />
     <Content Include="AdminExperience.aspx" />
     <Content Include="AdminExperienceAdd.aspx" />
     <Content Include="AdminExperienceDelete.aspx" />
@@ -339,6 +340,7 @@
     <Content Include="AdminTemplate\sidebar\style5.css" />
     <Content Include="AdminTemplate\StyleSheet2.css" />
     <Content Include="Main.aspx" />
+    <Content Include="StyleSheetTest.css" />
     <Content Include="Template\.gitignore" />
     <Content Include="Template\css\resume.css" />
     <Content Include="Template\css\resume.min.css" />
@@ -1751,6 +1753,13 @@
     </Compile>
     <Compile Include="Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEducation.aspx.cs">
+      <DependentUpon>AdminEducation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminEducation.aspx.designer.cs">
+      <DependentUpon>AdminEducation.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminExperience.aspx.cs">
       <DependentUpon>AdminExperience.aspx</DependentUpon>
