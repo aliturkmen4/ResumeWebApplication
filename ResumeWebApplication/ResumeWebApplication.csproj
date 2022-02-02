@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminEducation.aspx" />
+    <Content Include="AdminEducationAdd.aspx" />
     <Content Include="AdminExperience.aspx" />
     <Content Include="AdminExperienceAdd.aspx" />
     <Content Include="AdminExperienceDelete.aspx" />
@@ -1760,6 +1761,13 @@
     </Compile>
     <Compile Include="AdminEducation.aspx.designer.cs">
       <DependentUpon>AdminEducation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEducationAdd.aspx.cs">
+      <DependentUpon>AdminEducationAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminEducationAdd.aspx.designer.cs">
+      <DependentUpon>AdminEducationAdd.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminExperience.aspx.cs">
       <DependentUpon>AdminExperience.aspx</DependentUpon>
