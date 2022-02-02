@@ -7,18 +7,15 @@ using System.Web.UI.WebControls;
 
 namespace ResumeWebApplication
 {
-    public partial class AdminExperienceAdd : System.Web.UI.Page
+    public partial class AdminExperienceDelete : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            int id = Convert.ToInt16(Request.QueryString["ID"]); //smallint olarak tuttuğum için toint16!
             DataSetTableAdapters.TableExperienceTableAdapter dt = new DataSetTableAdapters.TableExperienceTableAdapter();
-            dt.ExperienceAdd(TextBox1.Text, TextBox2.Text, TextBox3.Text, TextBox4.Text);
+            dt.DeleteExperience(Convert.ToInt16(id));
+
             Response.Redirect("AdminExperience.aspx");
-        }
-
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
