@@ -75,6 +75,10 @@
     <Content Include="AdminExperienceAdd.aspx" />
     <Content Include="AdminExperienceDelete.aspx" />
     <Content Include="AdminExperienceUpdate.aspx" />
+    <Content Include="AdminInterests.aspx" />
+    <Content Include="AdminInterestsAdd.aspx" />
+    <Content Include="AdminInterestsDelete.aspx" />
+    <Content Include="AdminInterestsUpdate.aspx" />
     <Content Include="AdminSkills.aspx" />
     <Content Include="AdminSkillsAdd.aspx" />
     <Content Include="AdminSkillsDelete.aspx" />
@@ -1816,6 +1820,34 @@
     </Compile>
     <Compile Include="AdminExperienceUpdate.aspx.designer.cs">
       <DependentUpon>AdminExperienceUpdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInterests.aspx.cs">
+      <DependentUpon>AdminInterests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInterests.aspx.designer.cs">
+      <DependentUpon>AdminInterests.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInterestsAdd.aspx.cs">
+      <DependentUpon>AdminInterestsAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInterestsAdd.aspx.designer.cs">
+      <DependentUpon>AdminInterestsAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInterestsDelete.aspx.cs">
+      <DependentUpon>AdminInterestsDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInterestsDelete.aspx.designer.cs">
+      <DependentUpon>AdminInterestsDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInterestsUpdate.aspx.cs">
+      <DependentUpon>AdminInterestsUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInterestsUpdate.aspx.designer.cs">
+      <DependentUpon>AdminInterestsUpdate.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminSkills.aspx.cs">
       <DependentUpon>AdminSkills.aspx</DependentUpon>
