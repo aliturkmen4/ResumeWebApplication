@@ -25,5 +25,12 @@ namespace ResumeWebApplication
                 TxtGPA.Text = dt.BringEducation(Convert.ToInt16(x))[0].GPA;
             }
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            DataSetTableAdapters.TableEducationTableAdapter dt = new DataSetTableAdapters.TableEducationTableAdapter();
+            dt.EducationUpdate(TxtTitle.Text, TxtSubtitle.Text, TxtDescription.Text, TxtGPA.Text, TxtDate.Text, Convert.ToInt16(TxtID.Text));
+            Response.Redirect("AdminEducation.aspx");
+        }
     }
 }
