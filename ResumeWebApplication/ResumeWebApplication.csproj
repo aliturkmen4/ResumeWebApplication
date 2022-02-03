@@ -76,6 +76,9 @@
     <Content Include="AdminExperienceDelete.aspx" />
     <Content Include="AdminExperienceUpdate.aspx" />
     <Content Include="AdminSkills.aspx" />
+    <Content Include="AdminSkillsAdd.aspx" />
+    <Content Include="AdminSkillsDelete.aspx" />
+    <Content Include="AdminSkillsUpdate.aspx" />
     <Content Include="AdminTemplate\bootstrap-3.3.7\.gitattributes" />
     <Content Include="AdminTemplate\bootstrap-3.3.7\.gitignore" />
     <Content Include="AdminTemplate\bootstrap-3.3.7\dist\css\bootstrap-theme.css" />
@@ -1820,6 +1823,27 @@
     </Compile>
     <Compile Include="AdminSkills.aspx.designer.cs">
       <DependentUpon>AdminSkills.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSkillsAdd.aspx.cs">
+      <DependentUpon>AdminSkillsAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSkillsAdd.aspx.designer.cs">
+      <DependentUpon>AdminSkillsAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSkillsDelete.aspx.cs">
+      <DependentUpon>AdminSkillsDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSkillsDelete.aspx.designer.cs">
+      <DependentUpon>AdminSkillsDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSkillsUpdate.aspx.cs">
+      <DependentUpon>AdminSkillsUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminSkillsUpdate.aspx.designer.cs">
+      <DependentUpon>AdminSkillsUpdate.aspx</DependentUpon>
     </Compile>
     <Compile Include="DataSet.cs">
       <DependentUpon>DataSet.xsd</DependentUpon>
