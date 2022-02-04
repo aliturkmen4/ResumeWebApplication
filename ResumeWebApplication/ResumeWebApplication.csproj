@@ -354,6 +354,8 @@
     <Content Include="AdminTemplate\sidebar\style4.css" />
     <Content Include="AdminTemplate\sidebar\style5.css" />
     <Content Include="AdminTemplate\StyleSheet2.css" />
+    <Content Include="Login.aspx" />
+    <Content Include="LoginCss.css" />
     <Content Include="Main.aspx" />
     <Content Include="StyleSheetTest.css" />
     <Content Include="Template\.gitignore" />
@@ -1916,6 +1918,13 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Main.aspx.cs">
       <DependentUpon>Main.aspx</DependentUpon>
