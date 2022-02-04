@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminCertifications.aspx" />
+    <Content Include="AdminCertificationsAdd.aspx" />
+    <Content Include="AdminCertificationsDelete.aspx" />
+    <Content Include="AdminCertificationsUpdate.aspx" />
     <Content Include="AdminEducation.aspx" />
     <Content Include="AdminEducationAdd.aspx" />
     <Content Include="AdminEducationDelete.aspx" />
@@ -1764,6 +1768,34 @@
     </Compile>
     <Compile Include="Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="AdminCertifications.aspx.cs">
+      <DependentUpon>AdminCertifications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminCertifications.aspx.designer.cs">
+      <DependentUpon>AdminCertifications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminCertificationsAdd.aspx.cs">
+      <DependentUpon>AdminCertificationsAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminCertificationsAdd.aspx.designer.cs">
+      <DependentUpon>AdminCertificationsAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminCertificationsDelete.aspx.cs">
+      <DependentUpon>AdminCertificationsDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminCertificationsDelete.aspx.designer.cs">
+      <DependentUpon>AdminCertificationsDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminCertificationsUpdate.aspx.cs">
+      <DependentUpon>AdminCertificationsUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminCertificationsUpdate.aspx.designer.cs">
+      <DependentUpon>AdminCertificationsUpdate.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminEducation.aspx.cs">
       <DependentUpon>AdminEducation.aspx</DependentUpon>

@@ -55,7 +55,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="AdminCertificates.aspx">
+                    <a href="AdminCertifications.aspx">
                         <i class="glyphicon glyphicon-book"></i>
                         Certificates
                     </a>

@@ -16,8 +16,8 @@
             <asp:Repeater ID="Repeater1" runat="server">
                 <ItemTemplate>
                     <tr>
-                        <th><%#Eval("ID") %></th>
-                        <td><%#Eval("Interest") %></td>                       
+                        <th><%# Eval("ID") %></th>
+                        <td><%# Eval("Interest") %></td>                       
                         <td>
                             <asp:HyperLink NavigateUrl='<%# "AdminInterestsDelete.aspx?ID="+Eval("ID") %>' ID="HyperLink1" runat="server" CssClass="btn btn-danger">Delete</asp:HyperLink>
                             <asp:HyperLink NavigateUrl='<%# "AdminInterestsUpdate.aspx?ID="+Eval("ID") %>' ID="HyperLink2" runat="server" CssClass="btn btn-warning">Update</asp:HyperLink>
