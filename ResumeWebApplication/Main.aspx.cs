@@ -34,6 +34,10 @@ namespace ResumeWebApplication
             DataSetTableAdapters.TableSkillsTableAdapter dt6 = new DataSetTableAdapters.TableSkillsTableAdapter();
             Repeater6.DataSource = dt6.ListofSkills();
             Repeater6.DataBind();
+
+            DataSetTableAdapters.TableAboutmeTableAdapter dt7 = new DataSetTableAdapters.TableAboutmeTableAdapter();
+            Repeater7.DataSource = dt7.ListAboutme();
+            Repeater7.DataBind();
         }
     }
 }

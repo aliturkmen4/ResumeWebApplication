@@ -27,7 +27,11 @@
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="d-block d-lg-none">Clarence Taylor</span>
             <span class="d-none d-lg-block">
-                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="Template/img/profile.jpg" alt="">
+                <asp:Repeater ID="Repeater7" runat="server">
+                    <ItemTemplate>
+                        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src='<%#Eval("Image") %>' alt="">
+                    </ItemTemplate>
+                </asp:Repeater>
             </span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -175,8 +179,10 @@
                 <img align="left" alt="Php" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg">
                 <img align="left" alt="Php" height="30" width="40" src="https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667">
 
-                <br/><br/>
-                <br><br/>
+                <br />
+                <br />
+                <br>
+                <br />
 
 
                 <div class="subheading mb-3">Workflow</div>
