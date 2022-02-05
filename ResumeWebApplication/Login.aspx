@@ -40,13 +40,13 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-key"></i></span>
 						</div>
-						<asp:TextBox ID="TextBox2" runat="server" CssClass="form-control" PlaceHolder="password"></asp:TextBox>
+						<asp:TextBox ID="TextBox2" runat="server" CssClass="form-control" PlaceHolder="password" TextMode="Password"></asp:TextBox>
 					</div>
 					<div class="row align-items-center remember">
 						<input type="checkbox">Remember Me
 					</div>
 					<div class="form-group">
-						<input type="submit" value="Login" class="btn float-right login_btn">
+						<asp:Button ID="Button1" runat="server" Text="Login" CssClass="btn float-right login_btn" OnClick="Button1_Click" />
 					</div>
 				</form>
 			</div>
